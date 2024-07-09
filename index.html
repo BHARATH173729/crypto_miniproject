@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Encryption and Decryption Tool</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>File Encryption and Decryption Tool</h1>
+        <p class="author">Programmed by Bharath</p>
+        <div class="options">
+            <button id="encrypt-btn">Encryption</button>
+            <button id="decrypt-btn">Decryption</button>
+            <button id="exit-btn">Exit</button>
+        </div>
+        <div class="form-container" id="form-container">
+            <form id="file-form">
+                <label for="filename">Enter the filename with proper extension:</label>
+                <input type="text" id="filename" name="filename" required>
+                <button type="submit" id="submit-btn">Submit</button>
+            </form>
+        </div>
+        <div class="output" id="output"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
